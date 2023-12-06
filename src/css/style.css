@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+html {
+    font-family: "Public Sans", "Courier New", monospace, sans-serif;
+}
+
+main {
+    padding: 20px;
+}
+.pictures {
+    display: inline-flex;
+    padding: 10px;
+    justify-content: center;
+}
+.pictures .picture {
+    display: inline-flex;
+    position: relative;
+    justify-content: center;
+}
+
+.pictures .picture img {
+    width: 100%;
+}
+
+.pictures .picture .informations {
+    position: absolute;
+    color: #ffffff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.pictures .picture .informations .title {
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.pictures .picture .informations .author {
+    font-size: 17px;
+    font-weight: 300;
+}
